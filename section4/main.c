@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include<sys/types.h>
+#include <sys/wait.h>
 #include<unistd.h>
 
 void forkexample(){
@@ -10,6 +11,7 @@ void forkexample(){
     else
     {
         printf("Parent has x = %d\n", --x);
+        wait(NULL);
     }
 }
 
