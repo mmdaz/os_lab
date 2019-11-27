@@ -17,4 +17,3 @@ if __name__ == "__main__":
     t2 = threading.Thread(target=say_hello, args=(10,))
     t1.start()
     t2.start()
-    
