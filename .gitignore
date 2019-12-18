@@ -1,3 +1,5 @@
 .vscode/
-venv
+*/venv
 .idea
+*.out
+*/__pycache__
